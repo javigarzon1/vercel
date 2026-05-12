@@ -4,7 +4,7 @@
 import handler from "../dist/server/server.js";
 
 export const config = {
-  runtime: "nodejs22.x",
+  runtime: "nodejs.x",
 };
 
 export default async function (request: Request): Promise<Response> {
